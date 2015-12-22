@@ -21,11 +21,8 @@ key|value|否|
 a|b|否|
 
 * **请求成功:**
-> 
-> > Code: 100
- 
-  
-Content:
+>#####Code: 200
+>#####Content:
 
         { 
             id : 12 
@@ -34,21 +31,13 @@ Content:
 
 
 * **请求失败:**
-
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** 
+>#####Code: 401 UNAUTHORIZED
+>#####Content:
         { 
             error : "Log in" 
         }
 
-  OR
 
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** 
-        { 
-            error : "Email Invalid" 
-        }
 
 * **Sample Call:**
 
