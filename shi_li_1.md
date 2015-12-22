@@ -6,11 +6,11 @@
 
 
 * **URL**
-        /user/id
+        /book/id
 
 * **Method:**
   
-  `GET` | `POST` | `DELETE` | `PUT`
+  ###`GET` | `POST` | `DELETE` | `PUT`
   
 *  **请求参数**
 
@@ -20,22 +20,28 @@ foo|int|是|
 key|value|否|
 a|b|否|
 
-* **请求成功:**
->#####Code: 200
->#####Content:
+* **请求成功示例:**
+
 
         { 
-            id : 12 
+            name : "c book",
+            price: 12
         }
  
+*  **返回参数说明**
+
+**键值** | **类型** | **可否为空** | **备注**
+---------|----------|--------------|---------
+name    |string |否 |
+price   |float  |否 |
+author  |string |否 |
 
 
-* **请求失败:**
->#####Code: 401 UNAUTHORIZED
->#####Content:
+* **请求失败示例:**
+
 
         { 
-            error : "Log in" 
+            error : "unauthorized" 
         }
 
 
