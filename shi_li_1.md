@@ -5,7 +5,7 @@
 
 
 * **URL**
-
+        /user/id
 
 * **Method:**
   
@@ -13,37 +13,44 @@
   
 *  **URL Params**
 
-
-*  **Required:**
+ **Required:**
  
    `id=[integer]`
 
-*   **Optional:**
+   **Optional:**
  
    `photo_id=[alphanumeric]`
 
-* **Data Params**
+
 
 
 * **Success Response:**
   
 
-  * **Code:** 200 <br />
-    **Content:** 
-        `{ id : 12 }`
+  * **Code:** 200
+ 
+  
+  * **Content:** 
+        { 
+            id : 12 
+        }
  
 * **Error Response:**
 
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** 
-        `{ error : "Log in" }`
+        { 
+            error : "Log in" 
+        }
 
   OR
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
     **Content:** 
-        `{ error : "Email Invalid" }`
+        { 
+            error : "Email Invalid" 
+        }
 
 * **Sample Call:**
 
