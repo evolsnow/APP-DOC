@@ -1,7 +1,8 @@
-# 示例1
+# 接口说明
 
-**Title**
-----
+这里是说明
+
+## 
 
 
 * **URL**
@@ -11,18 +12,13 @@
   
   `GET` | `POST` | `DELETE` | `PUT`
   
-*  **URL Params**
+*  **请求参数**
 
- **Required:**
- 
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
-
-
-
+**键值** | **类型** | **可否为空** | **备注**
+---------|----------|--------------|---------
+foo|int|是|
+key|value|否|
+a|b|否|
 
 * **Success Response:**
   
