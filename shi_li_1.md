@@ -14,7 +14,7 @@
 *  **URL Params**
 
 
-*   **Required:**
+*  **Required:**
  
    `id=[integer]`
 
@@ -29,18 +29,21 @@
   
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
+    **Content:** 
+        `{ id : 12 }`
  
 * **Error Response:**
 
 
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+    **Content:** 
+        `{ error : "Log in" }`
 
   OR
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
+    **Content:** 
+        `{ error : "Email Invalid" }`
 
 * **Sample Call:**
 
