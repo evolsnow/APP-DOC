@@ -10,7 +10,7 @@
 
 * **Method:**
   
-  ####`GET` | `POST` | `DELETE` | `PUT`
+  ####<font color=red>`GET` | `POST` | `DELETE` | `PUT`</font>
   
 *  **请求参数**
 
