@@ -66,9 +66,9 @@ PUT方法用于向服务器申请**更新**内容
 
 示例: 
 
-更新id为123的学生信息
+更新id为123的学生手机号
 
-        PUT http://samaritan.tech/api/1.0/students/123
+        PUT http://samaritan.tech/api/1.0/students/123/phone
 
 ---
 
@@ -78,7 +78,7 @@ PUT方法用于向服务器申请**删除**内容
 
 示例: 
 
-删除id为123的学生信息
+删除id为123的学生
 
         DELETE http://samaritan.tech/api/1.0/students/123
 
