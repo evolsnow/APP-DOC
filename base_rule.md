@@ -1,7 +1,7 @@
 # 基本规定
-尽量采用REST风格
+尽量采用rest风格
 ---
-###1.请求地址
+##1.请求地址
 **api请求地址前缀在测试期间为:**
 
         http://samaritan.tech/api/1.0
@@ -12,3 +12,5 @@
 
         http://samaritan.tech/api/1.0/students/123
 
+##2.请求方法
+基本对应关系:
