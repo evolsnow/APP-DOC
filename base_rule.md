@@ -18,9 +18,9 @@
 ##2.请求内容
 a. 双方以`json`传输,字段参考对象属性(`GET`方法除外);
 
-b. 客户端需设置`Content-type`与`Accept`为`application/json`;
+b. client需设置`Content-type`与`Accept`为`application/json`;
 
-c. 客户端在登陆成功后,会获取到服务器返回的token值,
+c. client在登陆成功后,会获取到服务器返回的token值,
 请将`header`中的`Authorization`设置为该值,否则无权操作需要授权的接口;
 
 ##3.请求方法
@@ -37,7 +37,7 @@ c. 客户端在登陆成功后,会获取到服务器返回的token值,
 
 * <font color=green>POST</font>
 
-POST方法用于向服务器申请**创建**内容
+POST方法用于向server申请**创建**内容
 
 示例: 
 
@@ -48,7 +48,7 @@ POST方法用于向服务器申请**创建**内容
 ---
 * <font color=blue>GET</font>
 
-GET方法用于向服务器**请求**内容
+GET方法用于向server**请求**内容
 
 示例:
 
@@ -62,7 +62,7 @@ b. 请求所有课程的信息,限制为10条
 ---
 * <font color=orange>PUT</font>
 
-PUT方法用于向服务器申请**更新**内容
+PUT方法用于向server器申请**更新**内容
 
 示例: 
 
@@ -74,7 +74,7 @@ PUT方法用于向服务器申请**更新**内容
 
 * <font color=red>DELETE</font>
 
-PUT方法用于向服务器申请**删除**内容
+PUT方法用于向server器申请**删除**内容
 
 示例: 
 
