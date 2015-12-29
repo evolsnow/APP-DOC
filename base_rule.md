@@ -16,9 +16,12 @@
         http://samaritan.tech/api/1.0/students/123
 
 ##2.请求内容
-双方以`json`传输,字段参考对象属性
+a. 双方以`json`传输,字段参考对象属性;
 
-客户端需设置`Content-type`与`Accept`为`application/json`
+b. 客户端需设置`Content-type`与`Accept`为`application/json`;
+
+c. 客户端在登陆成功后,会获取到服务器返回的token值,
+请将`header`中的`Authorization`设置为该值,否则无权操作需要授权的接口;
 
 ##3.请求方法
 基本对应关系:
@@ -69,7 +72,7 @@ PUT方法用于向服务器申请**更新**内容
 
 ---
 
-* <font color=orange>DELETE</font>
+* <font color=red>DELETE</font>
 
 PUT方法用于向服务器申请**删除**内容
 
