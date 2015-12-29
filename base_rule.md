@@ -34,7 +34,7 @@ POST方法用于向服务器申请**创建**内容
 
 学生注册
 
-        POST http://samaritan.techapi/1.0/students
+        POST http://samaritan.tech/api/1.0/students
 
 * <font color=green>GET</font>
 
@@ -44,10 +44,10 @@ GET方法用于向服务器**请求**内容
 
 a.请求id为123学生的信息
 
-        GET http://samaritan.techapi/1.0/students/123
+        GET http://samaritan.tech/api/1.0/students/123
 b. 请求所有课程的信息
 
-        GET http://samaritan.techapi/1.0/courses
+        GET http://samaritan.tech/api/1.0/courses
 
 * <font color=orange>UPDATE</font>
 
@@ -57,4 +57,4 @@ PUT方法用于向服务器申请**更新**内容
 
 更新id为123的学生信息
 
-        PUT http://samaritan.techapi/1.0/students/123
+        PUT http://samaritan.tech/api/1.0/students/123
