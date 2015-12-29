@@ -1,6 +1,6 @@
 # 接口说明
 
-　　用户登陆:创建客户端token并返回
+　用户登陆:创建客户端token并返回
 
 ## 
 
@@ -45,5 +45,5 @@ token    |string |否 |
 
 * **Notes:**
 
-　　返回的`token`需要在`http header`中设置,即:
+　返回的`token`需要在`http header`中设置,即:
         `Authorization: Bearer abc.defg.hijk`
