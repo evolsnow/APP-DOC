@@ -23,7 +23,7 @@
 ---------|----------|--------------
 <font color=blue>`POST`</font>|CREATE|创建一个对象
 <font color=green>`GET`</font>|READ|读取对象
-<font color=orange>`UPDATE`</font>|UPDATE|更新对象
+<font color=orange>`PUT`</font>|UPDATE|更新对象
 <font color=red>`DELETE`</font>|DELETE|删除一个对象
 
 * <font color=blue>POST</font>
@@ -48,3 +48,13 @@ a.请求id为123学生的信息
 b. 请求所有课程的信息
 
         GET http://samaritan.techapi/1.0/courses
+
+* <font color=orange>UPDATE</font>
+
+PUT方法用于向服务器申请**更新**内容
+
+示例: 
+
+更新id为123的学生信息
+
+        PUT http://samaritan.techapi/1.0/students/123
