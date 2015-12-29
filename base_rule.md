@@ -62,7 +62,7 @@ b. 请求所有课程的信息,限制为10条
 ---
 * <font color=orange>PUT</font>
 
-PUT方法用于向server器申请**更新**内容
+PUT方法用于向server申请**更新**内容
 
 示例: 
 
@@ -74,7 +74,7 @@ PUT方法用于向server器申请**更新**内容
 
 * <font color=red>DELETE</font>
 
-PUT方法用于向server器申请**删除**内容
+PUT方法用于向server申请**删除**内容
 
 示例: 
 
