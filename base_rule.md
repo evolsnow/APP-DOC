@@ -19,7 +19,9 @@
 
 **请求方法** | **含义** | **服务器操作** 
 ---------|----------|--------------
-<font color=blue>`POST`</font>|CREATE|创建
-<font color=green>`GET`</font>|READ|读取
-<font color=orange>`UPDATE`</font>|UPDATE|更新
-<font color=red>`DELETE`</font>|DELETE|删除
+<font color=blue>`POST`</font>|CREATE|创建一个对象
+<font color=green>`GET`</font>|READ|读取对象
+<font color=orange>`UPDATE`</font>|UPDATE|更新对象
+<font color=red>`DELETE`</font>|DELETE|删除一个对象
+
+*
