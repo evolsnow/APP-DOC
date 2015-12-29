@@ -26,4 +26,4 @@
 <font color=orange>`UPDATE`</font>|UPDATE|更新对象
 <font color=red>`DELETE`</font>|DELETE|删除一个对象
 
-*
+* <font color=blue>`POST`</font>
