@@ -43,10 +43,6 @@ token    |string |否 |
         }
 
 
-
-* **Sample Call:**
-
-
 * **Notes:**
 
   ##### 返回的`token`需要在`http header`中设置
