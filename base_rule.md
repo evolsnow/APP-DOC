@@ -26,4 +26,25 @@
 <font color=orange>`UPDATE`</font>|UPDATE|更新对象
 <font color=red>`DELETE`</font>|DELETE|删除一个对象
 
-* <font color=blue>`POST`</font>
+* <font color=blue>POST</font>
+
+POST方法用于向服务器申请**创建**内容
+
+示例: 
+
+学生注册
+
+        POST http://samaritan.techapi/1.0/students
+
+* <font color=green>GET</font>
+
+GET方法用于向服务器**请求**内容
+
+示例:
+
+a.请求id为123学生的信息
+
+        GET http://samaritan.techapi/1.0/students/123
+b. 请求所有课程的信息
+
+        GET http://samaritan.techapi/1.0/courses
