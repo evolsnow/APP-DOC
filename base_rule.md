@@ -16,7 +16,7 @@
         http://samaritan.tech/api/1.0/students/123
 
 ##2.请求内容
-a. 双方以`json`传输,字段参考对象属性(`GET`方法除外);
+a. 双方以`json`传输(`GET`方法除外),字段参考对象属性;
 
 b. client需设置`Content-type`与`Accept`为`application/json`;
 
