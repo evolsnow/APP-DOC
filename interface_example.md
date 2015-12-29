@@ -45,4 +45,5 @@ token    |string |否 |
 
 * **Notes:**
 
-  ##### 返回的`token`需要在`http header`中设置
+  ##### 返回的`token`需要在`http header`中设置,即:
+        `Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMifQ.2Ef1wJhuwcReKsBsJ5Row4qVILE9H4sG0dY9YOiVF-Q`
