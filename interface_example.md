@@ -48,3 +48,5 @@ token    |string |否 |
 
 
 * **Notes:**
+
+  ##### 返回的`token`需要在`http header`中设置
