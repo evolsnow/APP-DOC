@@ -6,42 +6,40 @@
 
 
 * **URL**
-        /book/id
+        /accessToken
 
 * **Method:**
   
-  ####<font color=red>`GET` | `POST` | `DELETE` | `PUT`</font>
+  ####<font color=green>`POST`</font>
   
 *  **请求参数**
 
 **键值** | **类型** | **可否为空** | **备注**
 ---------|----------|--------------|---------
-foo|int|是|
-key|value|否|
-a|b|否|
+phone|string|否|
+password|string|否|
 
-* **请求成功示例:**
+* **请求内容示例:**
 
 
         { 
-            name : "c book",
-            price: 12
+            phone : "18612341234",
+            password : "766aedb5723569cd44e3e7ee1f92a4ea"
         }
  
 *  **返回参数说明**
 
 **键值** | **类型** | **可否为空** | **备注**
 ---------|----------|--------------|---------
-name    |string |否 |
-price   |float  |否 |
-author  |string |否 |
+phone    |string |否 |
 
 
-* **请求失败示例:**
+
+* **返回内容示例:**
 
 
         { 
-            error : "unauthorized" 
+            token : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMifQ.2Ef1wJhuwcReKsBsJ5Row4qVILE9H4sG0dY9YOiVF-Q" 
         }
 
 
