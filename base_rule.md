@@ -16,7 +16,7 @@
         http://samaritan.tech/api/1.0/students/123
 
 ##2.请求内容
-a. 双方以`json`传输,字段参考对象属性;
+a. 双方以`json`传输,字段参考对象属性(`GET`方法除外);
 
 b. 客户端需设置`Content-type`与`Accept`为`application/json`;
 
@@ -55,9 +55,9 @@ GET方法用于向服务器**请求**内容
 a.请求id为123学生的信息
 
         GET http://samaritan.tech/api/1.0/students/123
-b. 请求所有课程的信息
+b. 请求所有课程的信息,限制为10条
 
-        GET http://samaritan.tech/api/1.0/courses
+        GET http://samaritan.tech/api/1.0/courses?limit=10
 
 ---
 * <font color=orange>PUT</font>
