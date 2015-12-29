@@ -29,13 +29,13 @@ c. 客户端在登陆成功后,会获取到服务器返回的token值,
 
 **请求方法** | **含义** | **服务器操作** 
 ---------|----------|--------------
-<font color=blue>`POST`</font>|CREATE|创建一个对象
-<font color=green>`GET`</font>|READ|读取对象
+<font color=green>`POST`</font>|CREATE|创建一个对象
+<font color=blue>`GET`</font>|READ|读取对象
 <font color=orange>`PUT`</font>|UPDATE|更新对象
 <font color=red>`DELETE`</font>|DELETE|删除一个对象
 ---
 
-* <font color=blue>POST</font>
+* <font color=green>POST</font>
 
 POST方法用于向服务器申请**创建**内容
 
@@ -46,7 +46,7 @@ POST方法用于向服务器申请**创建**内容
         POST http://samaritan.tech/api/1.0/students
 
 ---
-* <font color=green>GET</font>
+* <font color=blue>GET</font>
 
 GET方法用于向服务器**请求**内容
 
