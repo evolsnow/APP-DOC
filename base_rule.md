@@ -21,5 +21,5 @@
 ---------|----------|--------------
 <font color=blue>`POST`</font>|CREATE|创建
 <font color=green>`GET`</font>|READ|读取
-<font color=yellow>`UPDATE`</font>|UPDATE|更新
+<font color=orange>`UPDATE`</font>|UPDATE|更新
 <font color=red>`DELETE`</font>|DELETE|删除
