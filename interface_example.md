@@ -1,6 +1,6 @@
 # 接口说明
 
-　用户登陆:创建客户端token并返回
+　用户登陆:server创建token并返回给client
 
 ## 
 
