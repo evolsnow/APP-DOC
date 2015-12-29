@@ -39,11 +39,11 @@ token    |string |否 |
 
 
         { 
-            token : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMifQ.2Ef1wJhuwcReKsBsJ5Row4qVILE9H4sG0dY9YOiVF-Q" 
+            token : "Bearer abc.defg.hijk" 
         }
 
 
 * **Notes:**
 
   ##### 返回的`token`需要在`http header`中设置,即:
-        `Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMifQ.2Ef1wJhuwcReKsBsJ5Row4qVILE9H4sG0dY9YOiVF-Q`
+        `Authorization: Bearer abc.defg.hijk`
