@@ -15,7 +15,12 @@
 
         http://samaritan.tech/api/1.0/students/123
 
-##2.请求方法
+##2.请求内容
+双方以`json`传输,字段参考对象属性
+
+客户端需设置`Content-type`与`Accept`为`application/json`
+
+##3.请求方法
 基本对应关系:
 
 
@@ -25,6 +30,7 @@
 <font color=green>`GET`</font>|READ|读取对象
 <font color=orange>`PUT`</font>|UPDATE|更新对象
 <font color=red>`DELETE`</font>|DELETE|删除一个对象
+---
 
 * <font color=blue>POST</font>
 
@@ -36,6 +42,7 @@ POST方法用于向服务器申请**创建**内容
 
         POST http://samaritan.tech/api/1.0/students
 
+---
 * <font color=green>GET</font>
 
 GET方法用于向服务器**请求**内容
@@ -49,7 +56,8 @@ b. 请求所有课程的信息
 
         GET http://samaritan.tech/api/1.0/courses
 
-* <font color=orange>UPDATE</font>
+---
+* <font color=orange>PUT</font>
 
 PUT方法用于向服务器申请**更新**内容
 
@@ -58,3 +66,16 @@ PUT方法用于向服务器申请**更新**内容
 更新id为123的学生信息
 
         PUT http://samaritan.tech/api/1.0/students/123
+
+---
+
+* <font color=orange>DELETE</font>
+
+PUT方法用于向服务器申请**删除**内容
+
+示例: 
+
+删除id为123的学生信息
+
+        DELETE http://samaritan.tech/api/1.0/students/123
+
