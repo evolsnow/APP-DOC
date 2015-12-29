@@ -3,6 +3,8 @@
 尽量采用rest风格
 
 ##1.请求地址
+(https配置已完成,暂不启用)
+
 **api请求地址前缀在测试期间为:**
 
         http://samaritan.tech/api/1.0
