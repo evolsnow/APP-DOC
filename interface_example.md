@@ -47,4 +47,4 @@ token    |string |否 |
 
 　　返回的`token`需要在`http header`中设置,即:
 
-        `Authorization: Bearer abc.defg.hijk`
+        Authorization: Bearer abc.defg.hijk
