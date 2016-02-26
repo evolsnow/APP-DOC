@@ -18,10 +18,10 @@
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-desc|string|是|
-deadline|uint64|是|
-ownerId|string|是|
-startTime|string||
+desc|string|是|todo事件描述
+deadline|uint64|是|结束时间
+ownerId|string|是|创建者
+startTime|string|否|默认则由服务器生成
 accomplished|string|否|默认false
 missionId|string|否|
 
