@@ -15,6 +15,12 @@
 
         https://samaritan.tech/api/1.0/students/123
 
+##2.请求权限
+`low`：任意访问
+
+`medium`：登录访问
+
+
 ##2.请求内容
 a. 双方以`json`传输(`GET`方法除外),字段参考对象属性;
 
