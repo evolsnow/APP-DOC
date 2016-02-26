@@ -13,6 +13,11 @@
 * **Method:**
   
   ####<font color=green>`POST`</font>
+
+* **权限:**
+
+  `medium`
+
   
 *  **请求参数**
 
