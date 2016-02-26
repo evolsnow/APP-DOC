@@ -3,22 +3,22 @@
 请求尽量采用rest风格
 
 ##1.请求地址
-(https配置已完成,暂不启用)
+(https配置已完并强制采用)
 
 **api请求地址前缀在测试期间为:**
 
-        http://samaritan.tech/api/1.0
+        https://samaritan.tech/api/1.0
 **接口示例中不再重复书写,即:**
 
         /students/123
 **实际代表:**
 
-        http://samaritan.tech/api/1.0/students/123
+        https://samaritan.tech/api/1.0/students/123
 
 ##2.请求内容
 a. 双方以`json`传输(`GET`方法除外),字段参考对象属性;
 
-b. client需设置`Content-type`与`Accept`为`application/json`;
+b. client需设置`Accept`为`application/json`;
 
 c. client在登陆成功后,会获取到服务器返回的token值,
 请将`header`中的`Authorization`设置为该值,否则无权操作需要授权的接口;
@@ -43,7 +43,7 @@ POST方法用于向server申请**创建**内容
 
 学生注册
 
-        POST http://samaritan.tech/api/1.0/students
+        POST /students
 
 ---
 * <font color=blue>GET</font>
@@ -54,10 +54,10 @@ GET方法用于向server**请求**内容
 
 a.请求id为123学生的信息
 
-        GET http://samaritan.tech/api/1.0/students/123
+        GET /students/123
 b. 请求所有课程的信息,限制为10条
 
-        GET http://samaritan.tech/api/1.0/courses?limit=10
+        GET /courses?limit=10
 
 ---
 * <font color=orange>PUT</font>
@@ -68,7 +68,7 @@ PUT方法用于向server申请**更新**内容
 
 更新id为123的学生手机号
 
-        PUT http://samaritan.tech/api/1.0/students/123/phone
+        PUT /students/123/phone
 
 ---
 
@@ -80,18 +80,20 @@ PUT方法用于向server申请**删除**内容
 
 删除id为123的学生
 
-        DELETE http://samaritan.tech/api/1.0/students/123
+        DELETE /students/123
 
 
 ##4.返回内容
 请求默认以`http status code`来标志请求状态
 
-`200`: `[GET]`成功获取内容
-
-`201`: `[POST,PUT]`成功创建/更新对象
+`200`: 请求成功执行
 
 `400`: 请求格式错误,详情查看`error`字段
 
 `401`: 未授权请求,查看请求`header`中`Authorization`字段
 
+`403`: 请求禁止,用户信息与授权信息不匹配
+
 `500`: 服务器错误,客户端通知服务器解决
+
+其次，所有失败的请求都有错误信息
