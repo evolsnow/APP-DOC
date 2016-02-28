@@ -29,4 +29,4 @@
 ###二、项目任务mission
 #####1.点击项目，展示项目中的任务mission。设置private属性（个人，团队），个人表示该项目属于项目创建者个人，可以邀请成员加入，只有创建者有权限创建和删除mission；民主表示该项目属于所有项目成员，所有成员均有权限创建mission，创建mission的人有权限删除mission；
 #####2.mission可评论，mission需显示任务deadline，已分配、未分配，项目中的用户可将mission分配到自己的日程表中，形成自己的todo日程表任务；
-#####3.项目mission进程：若mission指定给多人，则
+#####3.misson创建者可将mission指定给项目组成员，mission进程由mission分配总人数/已完成人数来决定；
