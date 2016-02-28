@@ -6,7 +6,7 @@
 **字段名** | **类型** | **备注**
  ----------------|--------|------
  	`Id         `|string        | 混淆id
- 	`SamId      `|string        |samaritan 唯一 id
+ 	`SamId      `|string        | samaritan 唯一 id
  	`Alias      `|string        | 昵称
  	`Name       `|string        | 姓名
  	`Phone      `|string        | 手机号
