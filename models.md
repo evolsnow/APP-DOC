@@ -53,14 +53,14 @@
  ----------------|---------|----
  	`Id         `|string        |
  	`StartTime  `|int64         | 开始时间
- 	`TaskTime   `|int64        | 姓名
- 	`Repeat     `|bool        | 手机号
+ 	`TaskTime   `|int64         | 姓名
+ 	`Repeat     `|bool          | 手机号
  	`RepeatPeriod`|int64        | 密码
  	`Place      `|string        | 邮箱
- 	`Deadline   `|int64        | 头像地址
+ 	`Deadline   `|int64         | 头像地址
  	`Desc       `|string        | 学校
  	`Remark     `|string        | 院系
-  	`Owner      `|`User`           | 年级   
- 	`FinishTime `|int64        | 班级
- 	`Mission    `|`Mission`        | 学号
+  	`Owner      `|`User`        | 年级   
+ 	`FinishTime `|int64         | 班级
+ 	`Mission    `|`Mission`     | 学号
  	
