@@ -59,8 +59,8 @@
  	`Place      `|string        | 地点
  	`Deadline   `|int64         | 失效时间
  	`Desc       `|string        | 描述
- 	`Remark     `|string        | 院系
-  	`Owner      `|`User`        | 年级   
- 	`FinishTime `|int64         | 班级
- 	`Mission    `|`Mission`     | 学号
+ 	`Remark     `|string        | 备注
+  	`Owner      `|`User`        | 所属者   
+ 	`FinishTime `|int64         | 完成时间
+ 	`Mission    `|`Mission`     | 所属任务
  	
