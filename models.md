@@ -47,3 +47,29 @@
  	`Comments   `|Comment       | 评论
  	
  	
+ ##Todo
+
+**字段名** | **类型** | **备注**
+ ----------------|---------|----
+ 	`Id         `|string        |
+ 	`StartTime  `|int64         | 开始时间
+ 	`TaskTime   `|int64        | 姓名
+ 	`Repeat     `|bool        | 手机号
+ 	`RepeatPeriod`|int64        | 密码
+ 	`Place      `|string        | 邮箱
+ 	`Deadline   `|int64        | 头像地址
+ 	`Desc       `|string        | 学校
+ 	`Remark     `|string        | 院系
+  	`Owner      `|`User`           | 年级   
+ 	`FinishTime `|int64        | 班级
+ 	`Mission    `|`Mission`        | 学号
+ 	
+ 	
+ 	
+  redis:"dealine"`    //end time
+	Desc       string `json:"desc,omitempty" redis:"desc"` //description for the action
+	Remark     string `json:"remark,omitempty" redis:"remark"`
+	OwnerId    int    `json:"ownerId,omitempty" redis:"ownerId"` //whose
+	Done       bool   `json:"done,omitempty" redis:"done"`
+	FinishTime int64  `json:"finishTime,omitempty" redis:"finishTime"`
+	MissionId
