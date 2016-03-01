@@ -58,6 +58,7 @@
  	`Repeat     `|bool          | 是否重复
  	`RepeatPeriod`|int64        | 重复周期
  	`Place      `|string        | 地点
+ 	`Pictures   `|[]string      | 图片
  	`Deadline   `|int64         | 失效时间
  	`Desc       `|string        | 描述
  	`Remark     `|string        | 备注
