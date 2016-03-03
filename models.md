@@ -42,7 +42,7 @@
  	`CreateTime `|int64         | 创建时间
  	`Desc       `|string        | 任务描述
  	`Publisher  `|`User`        | 任务发布者
- 	`Receiverss `|[...]`User`   | 所有任务接受者
+ 	`Receivers `|[...]`User`   | 所有任务接受者
  	`completionNum`|int         | 已完成人数
  	`completedTime`|int64       | 任务完成时间
  	`Comments   `|Comment       | 评论
@@ -54,12 +54,10 @@
  ----------------|---------|----
  	`Id         `|string        |
  	`StartTime  `|int64         | 开始时间
- 	`TaskTime   `|int64         | 持续时间
  	`Repeat     `|bool          | 是否重复
- 	`RepeatPeriod`|int64        | 重复周期
+ 	`RepeatMode `|int         | 重复模式
  	`Place      `|string        | 地点
  	`Pictures   `|[]string      | 图片地址
- 	`Deadline   `|int64         | 失效时间
  	`Desc       `|string        | 描述
  	`Remark     `|string        | 备注
   	`Owner      `|`User`        | 所属者   
