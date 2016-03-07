@@ -7,13 +7,13 @@
 
 **api请求地址前缀在测试期间为:**
 
-        https://samaritan.tech/api/1.0
+        https://api.samaritan.tech/1.0
 **接口示例中不再重复书写,即:**
 
         /students/123
 **实际代表:**
 
-        https://samaritan.tech/api/1.0/students/123
+        https://api.samaritan.tech/1.0/students/123
 
 ##2.请求权限
 `low`：任意访问
