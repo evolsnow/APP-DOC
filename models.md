@@ -55,7 +55,8 @@
  	`Id         `|string        |
  	`StartTime  `|int64         | 开始时间
  	`Repeat     `|bool          | 是否重复
- 	`RepeatMode `|int         | 重复模式
+ 	`AllDay     `|bool          | 是否全天
+ 	`RepeatMode `|int           | 重复模式
  	`Place      `|string        | 地点
  	`Pictures   `|[]string      | 图片地址
  	`Desc       `|string        | 描述
