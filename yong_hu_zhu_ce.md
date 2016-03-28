@@ -33,11 +33,11 @@ verifyCode|string|是|验证码
 
 
         { 
-            "Name": "evolsnow",
-            "Mail": "gsc1215225@gmail.com",
-            "Password": "123",
-            "Source": "mail",
-            "VerifyCode": "434887"
+            "name": "evolsnow",
+            "mail": "gsc1215225@gmail.com",
+            "password": "123",
+            "source": "mail",
+            "verifyCode": "434887"
         } 
 --- 
 *  **返回参数说明**
