@@ -12,7 +12,7 @@
        * [用户登录](yong_hu_deng_lu.md)
        * [新建Todo](xin_jian_todo.md)
    * [GET接口](getjie_kou.md)
-       * [samId存在性检查](samidcun_zai_xing_jian_cha.md)
+       * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
    * [PUT接口](putjie_kou.md)
        * 更新用户密码
 * [接口示例](interface_example.md)
