@@ -9,6 +9,7 @@
 
 * **URL**
         /verifyCode/:source
+        
         (source = "sms"/"mail")
 
 * **Method:**

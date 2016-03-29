@@ -51,7 +51,12 @@ token |string|是|用户令牌，需在http header中设置'Authorization'为该
 
         {
             "id": "3b6a8cc22882901fe1b800d529a81c19",
-            "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzYWx0IjoiMDNlMjNhZWI4OWYxM2ZmNDMyM2U2NDFhNTU5ZGI0MTQiLCJ1c2VySWQiOjN9.CiVRWF0iGkSmgldumojFjuR3k73HH8YOnzwxPo2-8ZM"
+            "token": "Bearer abc.defg.hijk"
         } 
 
 
+* **Notes:**
+
+　　返回的`token`需要在`http header`中设置,即:
+
+        Authorization: Bearer abc.defg.hijk
