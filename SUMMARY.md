@@ -12,5 +12,6 @@
 * [POST接口](postjie_kou.md)
    * [新建Todo](xin_jian_todo.md)
    * [用户注册](yong_hu_zhu_ce.md)
+   * 发送验证码
 * [Models](models.md)
 
