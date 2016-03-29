@@ -13,7 +13,7 @@
        * [新建Todo](xin_jian_todo.md)
    * [GET接口](getjie_kou.md)
        * [samId存在性检查](samidcun_zai_xing_jian_cha.md)
-   * PUT接口
+   * [PUT接口](putjie_kou.md)
 * [接口示例](interface_example.md)
 * [Models](models.md)
 
