@@ -14,7 +14,7 @@
    * [GET接口](getjie_kou.md)
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
    * [PUT接口](putjie_kou.md)
-       * 更新用户密码
+       * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
 * [接口示例](interface_example.md)
 * [Models](models.md)
 
