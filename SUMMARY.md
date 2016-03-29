@@ -11,7 +11,7 @@
        * [发送验证码](fa_song_yan_zheng_ma.md)
        * [用户登录](yong_hu_deng_lu.md)
        * [新建Todo](xin_jian_todo.md)
-   * GET接口
+   * [GET接口](getjie_kou.md)
 * [接口示例](interface_example.md)
 * [Models](models.md)
 
