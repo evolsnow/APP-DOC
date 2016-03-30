@@ -26,7 +26,7 @@ phone|string|否|手机号
 mail|string|否|邮箱
 samId|string|否|sam id
 password|string|是|密码
-type|string|是|登录方式 "mail"/"sms"/"samId"
+type|string|是|登录方式 "mail"/"phone"/"samId"
 
 * **请求内容示例:**
 

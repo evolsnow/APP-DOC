@@ -26,7 +26,7 @@ name|string|是|姓名
 phone|string|否|手机号
 mail|string|否|邮箱
 password|string|是|密码
-source|string|是|注册方式 "mail"/"phone"
+type|string|是|注册方式 "mail"/"phone"
 verifyCode|string|是|验证码
 
 * **请求内容示例:**
@@ -36,7 +36,7 @@ verifyCode|string|是|验证码
             "name": "evolsnow",
             "mail": "gsc1215225@gmail.com",
             "password": "123",
-            "source": "mail",
+            "type": "mail",
             "verifyCode": "434887"
         } 
 --- 
