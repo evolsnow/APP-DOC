@@ -10,7 +10,7 @@
 * **URL**
         /password/:identity
         
-        （identity为用户手机号/邮箱/samId）
+        （identity为用户手机号/邮箱）
 
 * **Method:**
   
@@ -24,18 +24,14 @@
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-phone|string|否|手机号
-mail|string|否|邮箱
-samId|string|否|samId
 password|string|是|密码
-type|string|是|识别方式 "mail"/"phone"/"samId"
+type|string|是|识别方式 "mail"/"phone"
 verifyCode|string|是|验证码
 
 * **请求内容示例:**
 
 
         {
-            "mail": "gsc1215225@gmail.com",
             "password": "123",
             "type": "mail",
             "verifyCode": "434887"
