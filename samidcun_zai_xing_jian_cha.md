@@ -35,14 +35,14 @@ samId|string|是|sam id
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-available    |bool |是 |是否可用
+code    |int |是 |请求结果
 msg      |string|否 |不可用原因
 
 * **返回成功示例:**
 
 
         {
-            "available": false,
-            "msg": "illegal char: #"
+            "code": 1,
+            "msg": "已被使用/非法字符..."
         } 
 

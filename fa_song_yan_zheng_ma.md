@@ -25,7 +25,7 @@
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
 to|string|是|发送对象（手机号/邮箱地址）
-use|string|是|用途 （"register"/"forgetPasswd"/"resetPasswd"）
+use|string|是|用途 （"register"/"resetPasswd"）
 
 * **请求内容示例:**
 
@@ -46,7 +46,7 @@ code    |int |是 |结果标志
 
 
         {
-            "code": 200
+            "code": 0
         } 
 
 

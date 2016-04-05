@@ -50,6 +50,7 @@ token |string|是|用户令牌，需在http header中设置'Authorization'为该
 
 
         {
+            "code": 0,
             "id": "3b6a8cc22882901fe1b800d529a81c19",
             "token": "Bearer abc.defg.hijk"
         } 

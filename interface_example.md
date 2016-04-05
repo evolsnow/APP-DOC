@@ -39,6 +39,7 @@ token    |string |是 |
 
 
         { 
+            code : 0,
             token : "Bearer abc.defg.hijk" 
         }
 
