@@ -22,26 +22,33 @@
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
+startTime|int64|是|开始时间
+place|string|否|地点
+repeat|bool|否|是否重复,默认为false
+repeatMode|int|否|重复模式
+allDay|bool|否|是否为全天
 desc|string|是|todo事件描述
-deadline|uint64|是|结束时间
-startTime|uint64|否|默认则由服务器生成
-accomplished|string|否|默认false
-missionId|int|否|
+remark|string|否|备注
+missionId|int|否|所属任务
 
 * **请求内容示例:**
 
 
         { 
-            desc : "to do something",
-            deadline: 147258369123,
-            missionId: 1
+            "startTime" : 147258369123,
+            "place": "somewhere",
+            "repeat": true,
+            "repeatmode": 1,
+            "desc": "do sth",
+            "remark": "some remark",
+            "missionId": 1
         }
 --- 
 *  **返回参数说明**
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-code    |int |是 |
+id    |string |是 |
 
 
 
@@ -49,6 +56,6 @@ code    |int |是 |
 
 
         { 
-            code : 0 
+            "id": "3b6a8cc22882901fe1b800d529a81c19",
         }
 
