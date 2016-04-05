@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /password/:identity
+        /users/password/:identity
         
         （identity为用户手机号/邮箱）
 
