@@ -46,7 +46,7 @@ finishTime|int64|否|完成时间
             "remark": "some remark",
             "missionId": "1dacc22882901fe1b800d529a81c19",
             "done": true,
-            finishTime: 147258369123
+            "finishTime": 147258369123
         }
 --- 
 *  **返回参数说明**
