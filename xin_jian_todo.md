@@ -29,7 +29,7 @@ repeatMode|int|否|重复模式
 allDay|bool|否|是否为全天
 desc|string|是|todo事件描述
 remark|string|否|备注
-missionId|int|否|所属任务
+missionId|string|否|所属任务id
 
 * **请求内容示例:**
 
@@ -41,7 +41,7 @@ missionId|int|否|所属任务
             "repeatmode": 1,
             "desc": "do sth",
             "remark": "some remark",
-            "missionId": 1
+            "missionId": "32a8cc22882901fe1b800d529a81c19"
         }
 --- 
 *  **返回参数说明**
