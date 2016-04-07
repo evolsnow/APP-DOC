@@ -20,6 +20,7 @@
        * [更新Todo](geng_xin_todo.md)
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
+       * 删除project
 * [接口示例](interface_example.md)
 * [Models](models.md)
 
