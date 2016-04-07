@@ -37,15 +37,46 @@ type|string|否|项目类型
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-available    |bool |是 |是否可用
-msg      |string|否 |不可用原因
+projects    |[]pj |是 |项目数组
+
+* **pj内容示例:**
+
+
+        {
+            "id": "adjapfdjp3q2wekp2",
+            "name": "项目名称",
+            "desc": "项目描述",
+            "creatorId": "eq23dfwejfpw",
+            "creatorName": "evol",
+            "private": false,
+            "type": "created/joined"
+        } 
 
 * **返回成功示例:**
 
 
         {
-            "available": false,
-            "msg": "illegal char: #"
+            "code": 0,
+            "projects": [        
+                            {
+                                "id": "adjapfdjp3q2wekp2",
+                                "name": "项目名称",
+                                "desc": "项目描述",
+                                "creatorId": "eq23dfwejfpw",
+                                "creatorName": "evol",
+                                "private": false,
+                                "type": "created"
+                            },
+                            {
+                                "id": "adjapfdjp3q2wekp2",
+                                "name": "项目名称",
+                                "desc": "项目描述",
+                                "creatorId": "eq23dfwejfpw",
+                                "creatorName": "evol",
+                                "private": false,
+                                "type": "joined"
+                            }
+                        ]
         } 
 
 
