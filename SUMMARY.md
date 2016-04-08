@@ -21,10 +21,10 @@
        * 获取项目所有任务
        * [获取任务所有评论](huo_qu_ren_wu_suo_you_ping_lun.md)
        * [添加任务评论](tian_jia_ren_wu_ping_lun.md)
-   * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
    * [PUT接口](putjie_kou.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
        * [更新Todo](geng_xin_todo.md)
+   * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
        * [删除Project](shan_chu_project.md)
