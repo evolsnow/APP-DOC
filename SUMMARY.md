@@ -13,6 +13,7 @@
        * [用户登录](yong_hu_deng_lu.md)
        * [新建Todo](xin_jian_todo.md)
        * [新建Project](xin_jian_project.md)
+       * [邀请成员](yao_qin_cheng_yuan.md)
    * [GET接口](getjie_kou.md)
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
        * [获取用户项目](huo_qu_xiang_mu.md)
