@@ -13,6 +13,7 @@
        * [用户登录](yong_hu_deng_lu.md)
        * [新建Todo](xin_jian_todo.md)
        * [新建Project](xin_jian_project.md)
+       * [添加任务评论](tian_jia_ren_wu_ping_lun.md)
        * [邀请成员](yao_qin_cheng_yuan.md)
    * [GET接口](getjie_kou.md)
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
@@ -20,7 +21,6 @@
        * [搜索成员](sou_suo_cheng_yuan.md)
        * 获取项目所有任务
        * [获取任务所有评论](huo_qu_ren_wu_suo_you_ping_lun.md)
-       * [添加任务评论](tian_jia_ren_wu_ping_lun.md)
    * [PUT接口](putjie_kou.md)
        * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
