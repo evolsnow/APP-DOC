@@ -16,7 +16,7 @@
    * [GET接口](getjie_kou.md)
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
        * [获取用户项目](huo_qu_xiang_mu.md)
-       * 搜索成员
+       * [搜索成员](sou_suo_cheng_yuan.md)
    * [PUT接口](putjie_kou.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
        * [更新Todo](geng_xin_todo.md)
