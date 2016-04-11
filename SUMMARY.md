@@ -13,7 +13,7 @@
        * [用户登录](yong_hu_deng_lu.md)
        * [新建Todo](xin_jian_todo.md)
        * [发布任务](fa_bu_ren_wu.md)
-       * [任务邀请](ren_wu_yao_qin_.md)
+       * [任务邀请](ren_wu_yao_qin.md)
        * [添加任务评论](tian_jia_ren_wu_ping_lun.md)
        * [新建Project](xin_jian_project.md)
        * [邀请成员](yao_qin_cheng_yuan.md)
