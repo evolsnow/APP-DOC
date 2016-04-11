@@ -28,6 +28,7 @@
        * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
        * [更新Todo](geng_xin_todo.md)
+       * [接受任务](jie_shou_ren_wu.md)
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
        * [删除Project](shan_chu_project.md)
