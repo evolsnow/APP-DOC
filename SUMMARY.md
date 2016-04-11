@@ -21,6 +21,7 @@
        * [搜索成员](sou_suo_cheng_yuan.md)
        * [获取项目所有任务](huo_qu_xiang_mu_suo_you_ren_wu.md)
        * [获取任务所有评论](huo_qu_ren_wu_suo_you_ping_lun.md)
+       * 获取任务详情
    * [PUT接口](putjie_kou.md)
        * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
