@@ -9,7 +9,7 @@
 
 
 * **URL**
-        /missions/comments/:mission
+        /comments/:mission
 
 * **Method:**
   
@@ -28,7 +28,7 @@ type|string|否|项目类型
 * **请求内容示例:**
 
 
-        /missions/comments/djio23ejdo2jdrqwerqewqeqw
+        /comments/djio23ejdo2jdrqwerqewqeqw
 ------------------------------------------- 
 *  **返回参数说明**
 
@@ -36,14 +36,14 @@ type|string|否|项目类型
 ---------|----------|--------------|---------
 comments    |[]comment |是 |任务数组
 
-* **ms内容示例:**
+* **comment内容示例:**
 
 
         {
             "id": "361916bfc04042177f9a0fe8e0a81c62",
             "userId": "213r2qgfr43fg4",
             "userName": "user name",
-            "when": 147258369
+            "createTime": 147258369
         }
 
 * **返回成功示例:**
@@ -56,13 +56,13 @@ comments    |[]comment |是 |任务数组
                     "id": "361916bfc04042177f9a0fe8e0a81c62",
                     "userId": "213r2qgfr43fg4",
                     "userName": "user name",
-                    "when": 147258369
+                    "createTime": 147258369
                 },
                 {
                     "id": "361916bfc04042177f9a0fe8e0a81c62",
                     "userId": "213r2qgfr43fg4",
                     "userName": "user name",
-                    "when": 147258369
+                    "createTime": 147258369
                 }
             ]
         } 
