@@ -17,7 +17,7 @@
        * [添加任务评论](tian_jia_ren_wu_ping_lun.md)
        * [新建Project](xin_jian_project.md)
        * [邀请项目成员](yao_qin_cheng_yuan.md)
-       * 上传deviceToken
+       * [上传deviceToken](shang_chuan_devicetoken.md)
    * [GET接口](getjie_kou.md)
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
        * [获取用户项目](huo_qu_xiang_mu.md)
