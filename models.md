@@ -41,6 +41,7 @@
  	`Name       `|string        | 名称
  	`CreateTime `|int64         | 创建时间
  	`Desc       `|string        | 任务描述
+    `Pictures   `|[]string      | 图片地址
  	`Publisher  `|`User`        | 任务发布者
  	`Receivers `|[...]`User`   | 所有任务接受者
  	`completionNum`|int         | 已完成人数
