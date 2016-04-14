@@ -13,6 +13,8 @@
 
 <del>5.密码找回
 
+6.登陆后上传deviceToken
+
 ## todo:
 <del>1.创建todo
 
@@ -53,7 +55,9 @@
 
 ## 需要更新的接口：
 
-<del>1.发布任务，添加图片,时间等，类似todo
-<del>2.添加todo，添加图片
-<del>3.获取mission，需要创建者等mission详情
+1.发布任务，添加图片,时间等，类似todo
+
+2.添加todo，添加图片
+
+3.获取mission，需要创建者等mission详情
 
