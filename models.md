@@ -41,7 +41,7 @@
  	`Name       `|string        | 名称
  	`CreateTime `|int64         | 创建时间
  	`Desc       `|string        | 任务描述
-    `Pictures   `|[]string      | 图片地址
+    `Pictures   `|[...]string      | 图片地址
  	`Publisher  `|`User`        | 任务发布者
  	`Receivers `|[...]`User`   | 所有任务接受者
  	`completionNum`|int         | 已完成人数
@@ -60,7 +60,7 @@
  	`AllDay     `|bool          | 是否全天
  	`RepeatMode `|int           | 重复模式
  	`Place      `|string        | 地点
- 	`Pictures   `|[]string      | 图片地址
+ 	`Pictures   `|[...]string      | 图片地址
  	`Desc       `|string        | 描述
  	`Remark     `|string        | 备注
   	`Owner      `|`User`        | 所属者   
