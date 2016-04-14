@@ -13,7 +13,7 @@
 
 <del>5.密码找回
 
-6.登陆后上传deviceToken
+6.上传deviceToken
 
 ## todo:
 <del>1.创建todo
