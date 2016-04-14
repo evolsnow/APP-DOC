@@ -28,6 +28,7 @@
  	`Name       `|string        | 名称
  	`CreateTime `|int64         | 创立时间
  	`Desc       `|string        | 项目描述
+    `BackgroundPic`|string      | 背景图片
  	`Private    `|bool          | 是否私有
  	`Creator    `|`User`        | 创立者
  	`Members    `|[...]`User`   | 项目成员列表
