@@ -47,6 +47,7 @@
  	`Receivers `|[...]`User`   | 所有任务接受者
  	`completionNum`|int         | 已完成人数
  	`completedTime`|int64       | 任务完成时间
+ 	`deadline`|int64       | 任务截止时间
  	`Comments   `|Comment       | 评论
  	`Project    `|`Project`     | 所属项目
  	

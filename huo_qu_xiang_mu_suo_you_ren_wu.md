@@ -42,9 +42,12 @@ missions    |[]mission |是 |任务数组
             "id": "361916bfc04042177f9a0fe8e0a81c62",
             "name": "ms name",
             "desc": "ms desc",
+            "pictures":["...1.jpg", "...2.jpg", ...],
+            "deadline": 12342542345,
             "creatorName": "evol",
             "creatorName": "123ui1ohr4ui2h4u13",
             "createTime": 1324123423
+
         }
 
 * **返回成功示例:**
@@ -57,6 +60,8 @@ missions    |[]mission |是 |任务数组
                     "id": "361916bfc04042177f9a0fe8e0a81c62",
                     "name": "ms name",
                     "desc": "ms desc",
+                    "pictures":["...1.jpg", "...2.jpg", ...],
+                    "deadline": 12342542345,
                     "creatorName": "evol",
                     "creatorName": "123ui1ohr4ui2h4u13",
                     "createTime": 1324123423
@@ -64,7 +69,9 @@ missions    |[]mission |是 |任务数组
                 {               {
                     "id": "rqwfeqw2177f9a0fedasdew8e0a81c62",
                     "name": "ms name 2",
-                    "desc": "ms desc 2"
+                    "desc": "ms desc 2",
+                    "pictures":["...1.jpg", "...2.jpg", ...],
+                    "deadline": 12342542345,
                     "creatorName": "evol",
                     "creatorName": "123ui1ohr4ui2h4u13",
                     "createTime": 1324123423
