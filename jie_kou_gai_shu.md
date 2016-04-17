@@ -20,7 +20,7 @@
 
 <del>2.删除todo
 
-<del>3.更新todo
+<del>3.更新todo（包括图片）
 
 ## mission:
 
@@ -40,6 +40,7 @@
 
 <del>8.接受任务
 
+<del>9.更新任务图片
 
 ## project:
 
