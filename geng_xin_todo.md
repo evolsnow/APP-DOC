@@ -33,7 +33,7 @@ remark|string|否|备注
 missionId|string|否|所属任务id
 done|bool|否|是否完成
 finishTime|int64|否|完成时间
-
+pictures|[]string|否|图片名
 * **请求内容示例:**
 
 
@@ -46,7 +46,8 @@ finishTime|int64|否|完成时间
             "remark": "some remark",
             "missionId": "1dacc22882901fe1b800d529a81c19",
             "done": true,
-            "finishTime": 147258369123
+            "finishTime": 147258369123,
+            "pictures": ["1.jpg", "2.jpg"]
         }
 --- 
 *  **返回参数说明**
