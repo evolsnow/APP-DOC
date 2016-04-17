@@ -14,7 +14,7 @@
 
 * **Method:**
   
-  ####<font color=green>`POST`</font>
+  ####<font color=blue>`GET`</font>
 
 * **权限:**
 
