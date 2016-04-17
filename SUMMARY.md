@@ -31,7 +31,7 @@
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
        * [更新Todo](geng_xin_todo.md)
        * [接受任务](jie_shou_ren_wu.md)
-       * 更新任务图片
+       * [更新任务图片](geng_xin_ren_wu_tu_pian.md)
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
        * [删除Project](shan_chu_project.md)
