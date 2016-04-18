@@ -62,7 +62,7 @@
 
 <del>1.发布任务，添加图片,时间等，类似todo
 
-2.添加todo,mission图片
+<del>2.添加todo,mission图片
 
 <del>3.获取mission，需要创建者等mission详情
 
