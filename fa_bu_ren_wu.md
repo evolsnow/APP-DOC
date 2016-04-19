@@ -25,6 +25,7 @@
 name|string|是|任务名
 desc|string|否|任务描述
 receiversId|[]string|否|预期接收者
+deadline|int64|否|截止日期
 projectId|string|否|所属项目id
 
 * **请求内容示例:**
@@ -34,6 +35,7 @@ projectId|string|否|所属项目id
             "name": "ms name",
             "desc": "ms desc",
             "receiversId": ["abc", "def"],
+            "deadline": 1232154325,
             "projectId": "32a8cc22882901fe1b800d529a81c19"
         }
 --- 
@@ -65,7 +67,7 @@ missionId    |string |是 |项目id
 remark    |string |否 |备注
 
         {
-            "message": "张三 邀请你接受任务 - 任务名",
+            "message": "张三邀请你接受任务 - 任务名",
             "invitor": "5787c1f315347c01899f130de6b4c58c",
             "missionId": "e2a7af07009a48fce8b0c2646f5089d3",
             "remark": "remark"
