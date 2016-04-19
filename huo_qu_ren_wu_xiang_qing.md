@@ -39,7 +39,7 @@ createTime|int64|是|创建时间
 name|   string|是|名称
 desc|string|是|描述
 publisherId|string|是|发布者id
-receiversId|[]string|否|接收者id列表
+receiversName|[]string|否|接收者名称列表
 projectId| string |否|所属项目id
 
 * **返回成功示例:**
@@ -52,9 +52,9 @@ projectId| string |否|所属项目id
             "name": "test mission",
             "desc": "test mission desc",
             "publisherId": "5787c1f315347c01899f130de6b4c58c",
-            "receiversId": [
-                "5787c1f315347c01899f130de6b4c58c",
-                "7189d2fcd42315c0e0160776581895bc"
+            "receiversName": [
+                "张三",
+                "李四"
             ],
             "projectId": "ab4286092583a315b6c43f3e4317937e"
         } 
