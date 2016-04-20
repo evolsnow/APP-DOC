@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /missions/pictures/:mission
+        /missions/pictures/:id
         
 
 * **Method:**
