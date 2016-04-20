@@ -9,7 +9,7 @@
 
 
 * **URL**
-        /comments/:mission
+        /comments/:mid
 
 * **Method:**
   
