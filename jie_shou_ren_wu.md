@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /missions/accepted/:id
+        /missions/accepted/:mid
         
 
 * **Method:**

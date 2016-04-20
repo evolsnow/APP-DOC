@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /todos/:id
+        /todos/:tid
         
 
 * **Method:**

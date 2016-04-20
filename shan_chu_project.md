@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /projects/:id
+        /projects/:pid
 
 * **Method:**
   
