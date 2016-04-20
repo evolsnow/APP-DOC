@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /projects/missions/:project
+        /projects/missions/:id
 
 * **Method:**
   
