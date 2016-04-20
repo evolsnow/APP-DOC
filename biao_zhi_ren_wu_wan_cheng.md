@@ -9,7 +9,7 @@
 
 
 * **URL**
-        /missions/status/:mission
+        /missions/status/:id
         
 
 * **Method:**
