@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /missions/:mission
+        /missions/:mid
 
 * **Method:**
   
