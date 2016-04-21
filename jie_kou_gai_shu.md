@@ -15,6 +15,8 @@
 
 <del>6.上传deviceToken
 
+<del>7.获取离线消息
+
 ## todo:
 <del>1.创建todo
 
