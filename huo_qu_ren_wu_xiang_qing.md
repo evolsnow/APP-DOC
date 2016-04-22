@@ -38,6 +38,7 @@ id|     string|是|mission id
 createTime|int64|是|创建时间
 name|   string|是|名称
 desc|string|是|描述
+accepted|bool|否|是否已接受
 publisherId|string|是|发布者id
 receiversName|[]string|否|接收者名称列表
 projectId| string |否|所属项目id
@@ -51,6 +52,7 @@ projectId| string |否|所属项目id
             "createTime": 1460356446,
             "name": "test mission",
             "desc": "test mission desc",
+            "accepted": true,
             "publisherId": "5787c1f315347c01899f130de6b4c58c",
             "receiversName": [
                 "张三",
