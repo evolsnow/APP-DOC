@@ -34,6 +34,7 @@
        * [接受任务](jie_shou_ren_wu.md)
        * [更新任务图片](geng_xin_ren_wu_tu_pian.md)
        * [加入项目](jia_ru_xiang_mu.md)
+       * 更新用户信息
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
        * [删除Mission](shan_chu_mission.md)
