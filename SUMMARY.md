@@ -33,6 +33,7 @@
        * [更新Todo](geng_xin_todo.md)
        * [接受任务](jie_shou_ren_wu.md)
        * [更新任务图片](geng_xin_ren_wu_tu_pian.md)
+       * 加入项目
    * [DELETE接口](deletejie_kou.md)
        * [删除Todo](shan_chu_todo.md)
        * [删除Mission](shan_chu_mission.md)
