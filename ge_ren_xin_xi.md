@@ -1,14 +1,14 @@
-# 搜索成员
+# 个人信息
 
 ## 接口说明
 
-　成员搜索
+　用户个人信息
 
 ## 
 
 
 * **URL**
-        /users/pubInfo/:mail
+        /users/personalInfo
 
 * **Method:**
   
@@ -16,18 +16,12 @@
 
 * **权限:**
 
-  `low`
+  `medium`
 
 *  **请求参数**
 
-**键值** | **类型** | **是否必需** | **备注**
----------|----------|--------------|---------
-samId|string|是|sam id
+无
 
-* **请求内容示例:**
-
-
-        /users/abc@def.com
 -------------------------- 
 *  **返回参数说明**
 
@@ -37,6 +31,9 @@ code    |int |是 |请求结果
 id|     string|是|用户id
 name|   string|是|名称
 avatar| string |是|头像url
+alias|string|否|昵称
+mail|string|是|邮箱地址
+stuNum|string|否|学号
 
 * **返回成功示例:**
 
@@ -44,6 +41,8 @@ avatar| string |是|头像url
         {
             "code": 0,
             "id": "fasdf24r2",
-            "name": "张三",
-            "avatar": "https://img.samaritan.tech/abc.jpg"
+            "avatar": "http://qiniu_domain/?e=1461405089\u0026token=access_key:GLfl3nGnSzRIYwQUuEv0l0LHGOA",
+            "mail": "abc@def.com",
+            "name": "李四",
+            "stuNum": "1218404004"
         } 

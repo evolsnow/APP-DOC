@@ -22,6 +22,7 @@
        * [获取samId可用状态](samidcun_zai_xing_jian_cha.md)
        * [获取用户项目](huo_qu_xiang_mu.md)
        * [搜索成员](sou_suo_cheng_yuan.md)
+       * [获取个人信息](ge_ren_xin_xi.md)
        * [获取项目所有任务](huo_qu_xiang_mu_suo_you_ren_wu.md)
        * [获取任务所有评论](huo_qu_ren_wu_suo_you_ping_lun.md)
        * [获取任务详情](huo_qu_ren_wu_xiang_qing.md)

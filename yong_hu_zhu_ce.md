@@ -50,7 +50,6 @@ id    |string |是 |用户id
 token |string|是|用户令牌，需在http header中设置'Authorization'为该值
 
 
-
 * **返回成功示例:**
 
 
