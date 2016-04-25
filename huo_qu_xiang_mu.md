@@ -49,7 +49,8 @@ projects    |[]project |是 |项目数组
             "creatorId": "eq23dfwejfpw",
             "creatorName": "evol",
             "private": false,
-            "type": "created/joined"
+            "type": "created/joined",
+            "members": ["张三, 李四"]
         } 
 
 * **返回成功示例:**
@@ -65,7 +66,8 @@ projects    |[]project |是 |项目数组
                                 "creatorId": "eq23dfwejfpw",
                                 "creatorName": "evol",
                                 "private": false,
-                                "type": "created"
+                                "type": "created",
+                                "members": ["张三, 李四"]
                             },
                             {
                                 "id": "adjapfdjp3q2wekp2",
@@ -74,7 +76,8 @@ projects    |[]project |是 |项目数组
                                 "creatorId": "eq23dfwejfpw",
                                 "creatorName": "evol",
                                 "private": false,
-                                "type": "joined"
+                                "type": "joined",
+                                "members": ["张三, 李四"]
                             }
                         ]
         } 
