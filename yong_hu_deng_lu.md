@@ -47,7 +47,7 @@ avatar|string|否|头像url地址
 name|string|是|名称
 alias|string|否|昵称
 mail|string|是|邮箱地址
-studentNum|string|否|学号
+stuNum|string|否|学号
 
 
 * **返回成功示例:**
@@ -60,7 +60,7 @@ studentNum|string|否|学号
             "avatar": "http://qiniu_domain/?e=1461405089\u0026token=access_key:GLfl3nGnSzRIYwQUuEv0l0LHGOA",
             "mail": "abc@def.com",
             "name": "李四",
-            "studentNum": "1218404004"
+            "stuNum": "1218404004"
 
         } 
 

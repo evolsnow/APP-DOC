@@ -24,6 +24,7 @@
 ---------|----------|--------------|---------
 name|string|是|姓名
 phone|string|否|手机号
+stuNum|string|否|学号
 mail|string|否|邮箱
 password|string|是|密码
 type|string|是|注册方式 "mail"/"phone"
@@ -35,6 +36,7 @@ verifyCode|string|是|验证码
         { 
             "name": "evolsnow",
             "mail": "gsc1215225@gmail.com",
+            "stuNum": "1218404004",
             "password": "123",
             "type": "mail",
             "verifyCode": "434887"
