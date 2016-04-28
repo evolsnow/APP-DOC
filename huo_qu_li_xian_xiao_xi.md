@@ -36,10 +36,13 @@ msgs    |[]msg |是 |消息数组
        {
             "id": "3er2fefs",
             "msg": "张三邀请你加入项目: pj name",
+            "time": 31278034432,
             "type": 4,
             "dealt": false,
             "extraInfo": {
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
+                "invitorAvatar": "e23r432.jpg",
+                "invitorName": "张三",
                 "projectId": "e2a7af07009a48fce8b0c2646f5089d3",
                 "remark": "remark"
             }
@@ -57,6 +60,8 @@ msgs    |[]msg |是 |消息数组
             "dealt": true,
             "extraInfo": {
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
+                "invitorAvatar": "e23r432.jpg",
+                "invitorName": "张三",
                 "projectId": "e2a7af07009a48fce8b0c2646f5089d3",
                 "remark": "remark"
             }
@@ -68,6 +73,8 @@ msgs    |[]msg |是 |消息数组
             "dealt": true,
             "extraInfo": {
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
+                "invitorAvatar": "e23r432.jpg",
+                "invitorName": "张三",
                 "missionId": "e2a7af07009a48fce8b0c2646f5089d3",
                 "remark": "remark"
             }
@@ -79,6 +86,8 @@ msgs    |[]msg |是 |消息数组
             "dealt": true,
             "extraInfo": {
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
+                "invitorAvatar": "e23r432.jpg",
+                "invitorName": "张三",
                 "missionId": "ea2f7341501b894694adce1e40576cb6"
             }
           }
