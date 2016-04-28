@@ -49,12 +49,18 @@ remark|string|否|备注
 ---------|----------|--------------|---------
 message    |string |是 |推送展示消息
 invitor    |string |是 |邀请人id
+invitorAvatar|string|是|邀请人头像
+invitorName|string|是|邀请人姓名
+time|int64|是|时间
 missionId    |string |是 |项目id
 remark    |string |否 |备注
 
         {
-            "message": "张三 发布了一个任务 - 任务名",
+            "message": "张三发布了一个任务 - 任务名",
             "invitor": "5787c1f315347c01899f130de6b4c58c",
+            "invitorAvatar": "fsdafas.jpg",
+            "invitorName": "张三",
+            "time":41289412438,
             "missionId": "e2a7af07009a48fce8b0c2646f5089d3",
             "remark": "remark"
         }
