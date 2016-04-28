@@ -25,6 +25,7 @@
 invitee|string|是|被邀请人id
 MissionId|string|是|任务id
 MissionName|string|是|任务名称
+projectId|string|是|所属项目
 remark|string|否|备注
 
 * **请求内容示例:**
@@ -34,6 +35,7 @@ remark|string|否|备注
             "invitee" : "r423fjewfo43f",
             "missionId": "41235432rfwef432f",
             "missionName": "任务名",
+            "projectId": "23442ferfwrewgferf",
             "remark": "some remark"
         }
 --- 

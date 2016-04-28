@@ -26,7 +26,7 @@ name|string|是|任务名
 desc|string|否|任务描述
 receiversId|[]string|否|预期接收者
 deadline|int64|否|截止日期
-projectId|string|否|所属项目id
+projectId|string|是|所属项目id
 
 * **请求内容示例:**
 
