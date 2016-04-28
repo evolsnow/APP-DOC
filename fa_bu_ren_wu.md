@@ -68,7 +68,7 @@ invitorName|string|是|邀请人姓名
 time|int64|是|时间
 targetId    |string |是 |任务id
 targetName    |string |是 |任务名字
-remark    |string |否 |备注
+projectId|string|是|所属项目
 
         {
             "message": "张三邀请你接受任务 - 任务名",
@@ -78,5 +78,5 @@ remark    |string |否 |备注
             "time":41289412438,
             "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
             "targetName": "任务名",
-            "remark": "remark"
+            "projectId": "3243092jf0342kjf3",
         }

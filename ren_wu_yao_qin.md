@@ -54,6 +54,7 @@ invitorName|string|是|邀请人姓名
 time|int64|是|时间
 targetId    |string |是 |任务id
 targetName    |string |是 |任务名字
+projectId|string|是|所属项目
 remark    |string |否 |备注
 
         {
@@ -64,5 +65,6 @@ remark    |string |否 |备注
             "time":41289412438,
             "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
             "targetName": "任务名",
+            "projectId": "3243092jf0342kjf3",
             "remark": "remark"
         }
