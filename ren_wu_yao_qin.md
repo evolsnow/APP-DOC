@@ -52,7 +52,8 @@ invitor    |string |是 |邀请人id
 invitorAvatar|string|是|邀请人头像
 invitorName|string|是|邀请人姓名
 time|int64|是|时间
-missionId    |string |是 |项目id
+targetId    |string |是 |任务id
+targetName    |string |是 |任务名字
 remark    |string |否 |备注
 
         {
@@ -61,6 +62,7 @@ remark    |string |否 |备注
             "invitorAvatar": "fsdafas.jpg",
             "invitorName": "张三",
             "time":41289412438,
-            "missionId": "e2a7af07009a48fce8b0c2646f5089d3",
+            "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
+            "targetName": "任务名",
             "remark": "remark"
         }

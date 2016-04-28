@@ -43,7 +43,8 @@ msgs    |[]msg |是 |消息数组
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
                 "invitorAvatar": "e23r432.jpg",
                 "invitorName": "张三",
-                "projectId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetName": "pj name",
                 "remark": "remark"
             }
         }
@@ -63,7 +64,8 @@ msgs    |[]msg |是 |消息数组
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
                 "invitorAvatar": "e23r432.jpg",
                 "invitorName": "张三",
-                "projectId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetName": "pj name",
                 "remark": "remark"
             }
           },
@@ -77,7 +79,8 @@ msgs    |[]msg |是 |消息数组
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
                 "invitorAvatar": "e23r432.jpg",
                 "invitorName": "张三",
-                "missionId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetName": "ms name",
                 "remark": "remark"
             }
           },
@@ -91,7 +94,8 @@ msgs    |[]msg |是 |消息数组
                 "invitor": "5787c1f315347c01899f130de6b4c58c",
                 "invitorAvatar": "e23r432.jpg",
                 "invitorName": "张三",
-                "missionId": "ea2f7341501b894694adce1e40576cb6"
+                "targetId": "e2a7af07009a48fce8b0c2646f5089d3",
+                "targetName": "ms name",
             }
           }
           ]
