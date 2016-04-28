@@ -56,6 +56,7 @@ msgs    |[]msg |是 |消息数组
           {
             "id": "werersf3r324",
             "msg": "张三邀请你加入项目: pj name",
+            "time": 31278034432,
             "type": 4,
             "dealt": true,
             "extraInfo": {
@@ -69,6 +70,7 @@ msgs    |[]msg |是 |消息数组
           {
             "id": "werersf3r324",
             "msg": "张三邀请你接受任务: ms name",
+            "time": 31278034432,
             "type": 7,
             "dealt": true,
             "extraInfo": {
@@ -82,6 +84,7 @@ msgs    |[]msg |是 |消息数组
           {
             "id": "werersf3r324",
             "msg": "张三发布了一个任务: ms name",
+            "time": 31278034432,
             "type": 6,
             "dealt": true,
             "extraInfo": {
