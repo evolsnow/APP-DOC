@@ -23,8 +23,8 @@
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
 invitee|string|是|被邀请人id
-MissionId|string|是|任务id
-MissionName|string|是|任务名称
+missionId|string|是|任务id
+missionName|string|是|任务名称
 projectId|string|是|所属项目
 remark|string|否|备注
 
