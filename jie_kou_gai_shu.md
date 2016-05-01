@@ -81,3 +81,4 @@
 <del>6.mission需要截止时间参数
 7.根据projectId获取项目信息的接口
 8.标记完成todo只需要一个更新todo接口，是不是mission后台判断
+9.获取项目详情时需要参与者name和avatar
