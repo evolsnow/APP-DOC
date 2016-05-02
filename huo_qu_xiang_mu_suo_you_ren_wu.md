@@ -47,7 +47,8 @@ missions    |[]mission |是 |任务数组
             "receiversName": ["张三", "李四"],
             "deadline": 12342542345,
             "creatorName": "evol",
-            "creatorName": "123ui1ohr4ui2h4u13",
+            "creatorId": "123ui1ohr4ui2h4u13",
+            "creatorAvatar": "http://qdqw.jpg",
             "createTime": 1324123423
 
         }
@@ -67,7 +68,8 @@ missions    |[]mission |是 |任务数组
                     "receiversName": ["张三", "李四"],
                     "deadline": 12342542345,
                     "creatorName": "evol",
-                    "creatorName": "123ui1ohr4ui2h4u13",
+                    "creatorId": "123ui1ohr4ui2h4u13",
+                    "creatorAvatar": "http://qdqw.jpg",
                     "createTime": 1324123423
                 },
                 {               {
@@ -78,7 +80,8 @@ missions    |[]mission |是 |任务数组
                     "receiversName": ["张三", "李四"],
                     "deadline": 12342542345,
                     "creatorName": "evol",
-                    "creatorName": "123ui1ohr4ui2h4u13",
+                    "creatorId": "123ui1ohr4ui2h4u13",
+                    "creatorAvatar": "http://qdqw.jpg",
                     "createTime": 1324123423
                 }
             ]
