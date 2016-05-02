@@ -35,6 +35,7 @@ pid|string|是|项目id
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
 id    |string |是 |项目数组
+createTime|int64|是|创建时间
 name|string|是|项目名称
 desc|string|否|项目描述
 creatorId|string|是|创建者id
@@ -47,6 +48,7 @@ members|[]user|否|成员
 
         {
             "id": "adjapfdjp3q2wekp2",
+            "createTime": 13123123,
             "name": "项目名称",
             "desc": "项目描述",
             "creatorId": "eq23dfwejfpw",
