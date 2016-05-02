@@ -8,7 +8,7 @@
 
 
 * **URL**
-        /projects/missions/:pid
+        /projectMissions/:pid
 
 * **Method:**
   
@@ -27,7 +27,7 @@ type|string|否|项目类型
 * **请求内容示例:**
 
 
-        /projects/missions/djio23ejdo2jdrqwerqewqeqw
+        /projectMissions/djio23ejdo2jdrqwerqewqeqw
 ---------------------------------------------------- 
 *  **返回参数说明**
 
