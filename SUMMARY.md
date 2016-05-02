@@ -28,7 +28,7 @@
        * [获取任务详情](huo_qu_ren_wu_xiang_qing.md)
        * [获取七牛token](huo_qu_qi_niu_token.md)
        * [获取离线消息](huo_qu_li_xian_xiao_xi.md)
-       * 获取项目信息
+       * [获取项目信息](huo_qu_xiang_mu_xin_xi.md)
    * [PUT接口](putjie_kou.md)
        * [标志任务完成](biao_zhi_ren_wu_wan_cheng.md)
        * [更新用户密码](geng_xin_yong_hu_mi_ma.md)
