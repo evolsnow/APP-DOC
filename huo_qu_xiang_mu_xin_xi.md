@@ -52,7 +52,8 @@ members|[]user|否|成员
             "creatorId": "eq23dfwejfpw",
             "creatorName": "evol",
             "private": false,
-            "members": [{
+            "members": [
+                        {
                          "id": "e12e1",
                          "name": "张三",
                          "avatar": "http://qdwqwq.jpg"
@@ -60,6 +61,7 @@ members|[]user|否|成员
                          "id": "afdsfwe",
                          "name": "李四",
                          "avatar": "http://qdwqfew.jpg"
-                        }]
+                        }
+                       ]
         } 
 
