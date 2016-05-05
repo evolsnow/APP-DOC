@@ -22,7 +22,7 @@
 
 **键值** | **类型** | **是否必需** | **备注**
 ---------|----------|--------------|---------
-invitee|string|是|被邀请人id
+invitee|[]string|是|被邀请人id
 missionId|string|是|任务id
 missionName|string|是|任务名称
 projectId|string|是|所属项目
@@ -32,7 +32,7 @@ remark|string|否|备注
 
 
         { 
-            "invitee" : "r423fjewfo43f",
+            "invitee" : ["r423fjewfo43f","sdfsdf"]
             "missionId": "41235432rfwef432f",
             "missionName": "任务名",
             "projectId": "23442ferfwrewgferf",
